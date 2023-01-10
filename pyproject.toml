@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "maltlint"
+version = "0.0.1"
+description = "maltlint"
+authors = ["Yes <not@important.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "3.10.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.0"
+ipython = "^8.8.0"
+
