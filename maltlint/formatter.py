@@ -1,7 +1,7 @@
 """ Please ignore this please """
 import os
 
-class MaltesFormatter():
+class Maltlint():
 
     def __init__(self, target_path):
         self.target_path = target_path
